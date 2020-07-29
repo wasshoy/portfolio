@@ -1,0 +1,27 @@
+// ルーティングのアニメーション設定
+.container {
+  position: relative;
+}
+.content {
+  position: absolute;
+  &-enter {
+    animation: fade-in 800ms ease;
+  }
+  &-exit {
+    animation: fade-in 200ms ease reverse;
+    &-active {
+      opacity: 0;
+    }
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    top: 50px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}

@@ -1,0 +1,29 @@
+a {
+  text-decoration: none;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: fixed;
+  right: 0;
+  top: 4px;
+  &__menu {
+    border-radius: 4px 0 0 4px;
+    height: 20px;
+    padding: 6px 12px;
+    text-align: right;
+    text-transform: uppercase;
+    width: 50px;
+    &:hover {
+      box-shadow: 0 1.6px 2px #c4b59d;
+    }
+  }
+  span {
+    vertical-align: 12px;
+  }
+}
+
+.nav-menu {
+  font-size: 20px;
+}

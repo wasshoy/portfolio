@@ -1,0 +1,81 @@
+ul {
+  list-style: none;
+}
+
+.TV-app {
+  background: #ddd;
+  display: flex;
+  flex-direction: column;
+  margin: 32px auto;
+  width: 620px;
+}
+.TV-app__tv {
+  margin: 32px auto;
+}
+.TV-app__tv__body {
+  background: #333;
+  border-radius: 12px;
+  display: flex;
+  height: 240px;
+  width: 320px;
+}
+.TV-app__tv__body__screen {
+  background: #fff;
+  border: solid 1px #38e2f3;
+  border-radius: 4px;
+  height: 162px;
+  margin: 24px 0 0 24px;
+}
+.TV-app__tv__body__screen__image {
+  border-radius: 4px;
+  box-shadow: red 1px 1px 1px;
+  height: 160px;
+  width: 240px;
+}
+.TV-app__tv__dial-btns {
+  margin: 24px 28px;
+  transform: translateX(-50%);
+}
+.TV-app__tv__description {
+  height: 80px;
+  margin: 0 auto;
+  width: 320px;
+}
+.TV-app__tv__description__title {
+  font-size: 1.2em;
+}
+.TV-app .button {
+  background: #999;
+  border-style: outset;
+  border-width: 1px;
+  border-radius: 50%;
+  color: #999;
+  cursor: pointer;
+  font-weight: bold;
+  margin-bottom: 12px;
+  height: 40px;
+  text-align: center;
+  text-shadow: -0.5px -0.5px rgba(255, 255, 255, 0.44), 0.5px 0.5px rgba(0, 0, 0, 0.38);
+  width: 40px;
+}
+.TV-app .button:focus {
+  outline: none;
+}
+.TV-app .button:active {
+  border-style: inset;
+  text-shadow: -0.5px -0.5px rgba(255, 255, 255, 0.3), 0.5px 0.5px rgba(0, 0, 0, 0.3);
+}
+.TV-app__thumbnails {
+  color: red;
+  display: flex;
+  margin: 32px auto;
+}
+.TV-app__thumbnails .thumbnail {
+  cursor: pointer;
+}
+.TV-app__thumbnails .thumbnail__image {
+  height: 40px;
+  width: 60px;
+}
+
+/*# sourceMappingURL=TV.css.map */

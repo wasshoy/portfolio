@@ -1,0 +1,17 @@
+.TV-app__tv__body__screen-animation-enter {
+  animation: tv-glitch 200s;
+}
+
+@keyframes tv-glitch {
+  from {
+    transform: skew(15deg, 15deg);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  to {
+    transform: skew(-15deg, -15deg);
+  }
+}
+
+/*# sourceMappingURL=TVtransitions.css.map */

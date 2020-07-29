@@ -1,0 +1,40 @@
+.about__profile {
+  margin-bottom: 32px;
+}
+.about__profile__icon {
+  border: solid 1px #222;
+  margin-right: 16px;
+  vertical-align: bottom;
+  width: 64px;
+}
+.about__profile__title {
+  margin-bottom: 32px;
+}
+.about__profile__title span {
+  color: #202020;
+  font-size: 64px;
+  text-shadow: 0px 8px 6px #c4b59d, 0 -2px 1px #888;
+}
+.about__profile hr.separator {
+  background: #ece5da;
+  border-top: 4px dotted #202020;
+  opacity: 0.4;
+}
+.about__profile__text {
+  line-height: 32px;
+  margin: 32px 0 0 0;
+  text-align: left;
+}
+.about__profile__links {
+  display: flex;
+  list-style: none;
+  margin-top: 32px;
+}
+.about__profile__links li:not(:last-child) {
+  margin-right: 8px;
+}
+.about__profile__links li:not(:last-child)::after {
+  content: " / ";
+}
+
+/*# sourceMappingURL=Profile.css.map */

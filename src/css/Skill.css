@@ -1,0 +1,24 @@
+.about__skill {
+  margin-bottom: 32px;
+}
+.about__skill__icon {
+  border: solid 1px #222;
+  margin-right: 16px;
+  vertical-align: bottom;
+  width: 64px;
+}
+.about__skill__title {
+  margin-bottom: 32px;
+}
+.about__skill__title span {
+  color: #202020;
+  font-size: 64px;
+  text-shadow: 0px 8px 6px #c4b59d, 0 -2px 1px #888;
+}
+.about__skill hr.separator {
+  background: #ece5da;
+  border-top: 4px dotted #202020;
+  opacity: 0.4;
+}
+
+/*# sourceMappingURL=Skill.css.map */
